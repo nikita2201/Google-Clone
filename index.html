@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Google Clone</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li>
+				<a href="#">Gmail</a>
+				<a href="#">Images</a>
+			</li>
+			<i class="fa fa-th"></i>
+		</ul>
+		<button class="button">Sign in</button>
+	</nav>
+	<img src="google2.0.0.png" alt=" google logo">
+	<div>
+	<form id="mainForm">
+	<div class="row">
+		<i class="fa fa-search"></i>
+		<input type="text" name="lname" id="searchText" />
+		<i class="fa fa-microphone"></i>
+	</div>
+		
+		<div class="btns">
+		<button class="btns" type="submit">Google Search</button>
+		<button class="btns">I'm Feeling Lucky</button>
+	</div>
+		</form>
+	</div>
+	
+	<div>
+		<p class="offeredin">Google offered in: हिन्दी বাংলা मराठी தமிழ் తెలుగు ગુજરતી ਪੰਜਾਬੀ മലയാളം ಕನ್ನಡ</p>
+
+	</div>
+	<div class="footer">
+		<div class="india">India</div>
+		<div class="bottomFoot">
+		<div class="footer-left">
+			<a href="#">Advertising</a>
+			<a href="#">Business</a>
+			<a href="#">About</a>
+			<a href="#">How Search works</a>
+		</div>
+		<div class="footer-right">
+			<a href="">Privacy</a>
+			<a href="">Terms</a>
+			<a href="">Setting</a>
+		</div>
+		</div>
+	</div>
+
+</body>
+<script>
+	document.querySelector('#mainForm').onsubmit = function(e){
+		e.preventDefault();
+		var search = document.querySelector('#searchText').value
+		location.href = ('http://www.google.com/search?q='+search)
+	}
+	
+	
+</script>
+</html>

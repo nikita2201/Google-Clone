@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+}
+
+ul {
+	padding: 10px;
+	display: flex;
+}
+
+li {
+	list-style: none;
+	padding: 10px 0px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 14px;
+	padding: 20px 10px;
+	color: black;
+	margin-top: 10px;
+}
+
+i {
+	padding: 15px;
+
+}
+
+.button {
+	background-color: rgba(0, 88, 255, 0.99);
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	height: 30px;
+	width: 70px;
+	margin: 20px 30px 0px 0px;
+	border: 0px;
+	border-radius: 3px;
+}
+
+img {
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: bottom;
+
+}
+
+input {
+	border: 0;outline: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	width: 80%;
+}
+
+.btns {
+	text-align: center;
+	margin-top: 10px;
+	border: 0px;
+	padding: 10px;
+	border-radius: 3px;
+	font-size: 12px;
+}
+
+.row{
+	margin: 10px auto;
+	border: 1px solid rgba(0, 0, 0, 0.31);
+	width: 500px;
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.offeredin {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+.footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	background-color: #bfbfbf;
+
+}
+
+.footer .india {
+	margin-left: 10px;
+
+}
+.bottomFoot{
+	display: flex;
+	justify-content: space-between
+}
+.footer-left {
+	background-color: #bfbfbf;
+
+
+}
+
+.footer-right {
+	background-color: #bfbfbf;
+
+
+}
